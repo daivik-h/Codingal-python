@@ -15,10 +15,6 @@ person4birthday = input(f' Enter Your Date of Birth : ')
 
 
 
-
-
-
-
 print(f'Hi {name1} You are {person1age} And you will  have your Birthday on {person1birthday} wuhoo ') 
 
 print(f'Hi {name2} You are {person2age} And you will  have your Birthday on {person2birthday} Yahoo ') 
