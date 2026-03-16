@@ -19,10 +19,23 @@ percentage_marks = total_marks / full_marks * 100
 print(f'Ok {name} your total marks in all subjects is {total_marks} out of {full_marks} so your average marks per subjet is {average_marks} and you got {percentage_marks}% in this test.' )
 
 
-if percentage_marks >= 70:
-    print(f'Congratulations {name} You Have Passed.')
+if percentage_marks >= 90:
+    print(f'Congratulations {name} You Have Passed with an A+.')
 
+elif percentage_marks >= 85:
+    print(f'Congratulations {name} You Have Passed with an A.')
+elif percentage_marks >= 80:
+    print(f'Congratulations {name} You Have Passed with an b+.')
+
+elif  percentage_marks >= 75:
+    print(f'Congratulations {name} You Have Passed with an b.')  
+
+elif  percentage_marks >= 70:
+    print(f'Congratulations {name} You Have Passed with an c.')    
+
+    
+    
 else :
-    print(f'Congratulations {name} YOU HAVE FAILED YOUR PARENTS AND THIS TEST !!! .')
+    print(f'Congratulations {name} YOU GOT AN F YOU HAVE FAILED YOUR PARENTS AND THIS TEST !!! .')
 
 
