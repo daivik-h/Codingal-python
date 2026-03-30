@@ -15,7 +15,7 @@ def is_armstrong(num):
 user_input = int(input('Enter Any Number And i whil check if it is a Armstrong Number:  '))
 
 if is_armstrong(user_input):
-    print(f'{user_input} is a Arnstrong number😱')        
+    print(f'{user_input} is a Armstrong number😱')        
 
 else:
     print(f'Sorry {user_input} Is not a armstrong number 😏')            
