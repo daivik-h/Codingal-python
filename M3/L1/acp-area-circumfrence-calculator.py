@@ -37,12 +37,12 @@ elif shape == 2:
     oprator = int(input('Go Ahead Here:'))
     if oprator == 1:
        base_rec = float(input('Enter The Base Of The Rectangle(length): '))
-       height_rec = float(input('Enter The Base Of The Rectangle(length): '))
+       height_rec = float(input('Enter The Height Of The Rectangle(length): '))
        print(f'The Area of A Rectangle With the base {base_rec} and height {height_rec} is {area_rectangle (base_rec,height_rec)}')
 
     elif oprator == 2:
        base_rec_p = float(input('Enter The Base Of The Rectangle(length): '))
-       height_rec_p = float(input('Enter The Base Of The Rectangle(length): '))
+       height_rec_p = float(input('Enter The Height Of The Rectangle(length): '))
        print(f'The Perimeter of A Rectangle With the base {base_rec_p} and height {height_rec_p} is {perimiet_rectangle (base_rec_p,height_rec_p)}')
        
     else:
@@ -55,7 +55,7 @@ elif shape == 3:
     oprator = int(input('Go Ahead Here:'))
     if oprator == 1:
        base_tri = float(input('Enter The Base Of The Triangle(length): '))
-       height_tri = float(input('Enter The Base Of The Triangle(length): '))
+       height_tri = float(input('Enter The Height Of The Triangle(length): '))
        print(f'The Area of A Triangle With the base {base_tri} and height {height_tri} is {area_triangle (base_tri,height_tri)}')
 
     elif oprator == 2:
