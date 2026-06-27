@@ -1,0 +1,6 @@
+name = input('Enter Your Name: ')
+age = input('Enter Your Age: ')
+grade = input('Enter Your Grade: ')
+city = input('Enter Your City: ')
+hobby = input('Enter Your Hobby: ')
+print(f'Hi {name} , you are {age} years and you are in grade {grade} and you are writing from {city} and your favorite hobby is {hobby}, you look like a nice person , great getting you to know.')
